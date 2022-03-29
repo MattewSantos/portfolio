@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(min-width:300px){
+    body{
+        font-family:'Courier New', Courier, monospace;
+    }
+    /* /anything */
+    .contact [type="text"],[type="email"],textarea{
+        width: 95%;
+        font-family:'Courier New', Courier, monospace;
+        padding: 3%;
+    }
+    .footer{
+        background-color: darkblue;
+        color: white;
+        padding: 5%;
+        text-align: center;
+    }
+    .footer >span{
+        font-weight: bold;
+    }
+    /* 1. plan the sections of your page
+        *footer
+        *contact
+        *education
+        *skills
+        *project
+        *about
+        *header
+        comment */
+}
