@@ -12,6 +12,49 @@
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    section > h2{
+        width: 90%;
+        color: steelblue;
+        border-bottom: 1px solid;
+        border-color: steelblue;
+    }
+    #tamwood_card > aside{
+        background: url("/image/Tamwood\ International\ College\ Ltd\ Logo\ [Copy\ 23565912].jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+    }
+
+    #fatesg_card > aside{
+        background: url("/image/fatesg.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+    }
+    #PUC_card > aside{
+        background: url("/image/PUC.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+    }
+    #sesc_card > aside{
+        background: url("/image/sesc_logo.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+    }
+    .card{
+        align-items: center;
+        padding: 2%;
+    }
+    .education aside{
+        width: 40vh;
+        height: 25vh;
+    }
     .contact [type="text"],[type="email"],textarea{
         width: 90%;
         font-family:'Courier New', Courier, monospace;
