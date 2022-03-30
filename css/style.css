@@ -6,12 +6,24 @@
 @media(min-width:300px){
     body{
         font-family:'Courier New', Courier, monospace;
+        padding: 3%;
     }
-    /* /anything */
+    section{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
     .contact [type="text"],[type="email"],textarea{
-        width: 95%;
+        width: 90%;
         font-family:'Courier New', Courier, monospace;
         padding: 3%;
+    }
+    .contact [class="d-flex"]{
+        justify-content: space-evenly;
+    }
+    .btn{
+        color: white;
+        background-color: darkblue;
+        font-weight: 600;
     }
     .footer{
         background-color: darkblue;
@@ -30,5 +42,5 @@
         *project
         *about
         *header
-        comment */
+        comment. */
 }
