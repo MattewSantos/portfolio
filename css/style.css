@@ -58,7 +58,7 @@
     }
 
     #html-5 > aside {
-        background: url("/img/html-5.png");
+        background: url("/image/Html_logo.png");
     }
 
     #projectone p {
@@ -123,21 +123,23 @@
     }
 
     #javascript > aside {
-        background: url("/img/javascript.png");
+        background: url("/image/Javascript-shield.png");
     }
 
     #sass > aside {
-        background: url("/img/sass.png");
+        background: url("/image/Sass.png");
     }
 
     #github > aside {
-        background: url("/img/github.png");
+        background: url("/image/github.png");
     }
 
     #github > p {
         padding-left: 4%;
     }
-
+    #SQL > aside{
+        background: url("/image/SQL.png");
+    }
     .education {
         display: flex;
         flex-direction: column;
@@ -156,21 +158,21 @@
         background-repeat: no-repeat;
     }
 
-    #chula-card > aside {
+    #FATESG-card > aside {
         background: url("/image/fatesg.jpg");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
 
-    #seoul-card > aside {
+    #PUC-card > aside {
         background: url("/image/PUC.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
 
-    #unam-card > aside {
+    #SESC-card > aside {
         background: url("/image/sesc_logo.png");
         background-size: contain;
         background-position: center;
@@ -271,6 +273,41 @@
     }
 }
 @media (min-width: 1000px) {
+    .navigation-menu {
+        display: block !important;
+        width: 94%;
+        position: fixed;
+        height: 15vh;
+        z-index: 1;
+    }
+
+    .navigation-menu > ul {
+        padding: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    .navigation-menu li {
+        width: 100%;
+        display: flex;        
+    }
+
+    .navigation-menu a {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+        
+        text-decoration: none;
+        background-color: rgba(100,100,100,.5);
+        color: whitesmoke;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .navigation-menu a:hover {
+        background-color: steelblue;
+    }
+
 
     .about > p {
         width: 90%;
