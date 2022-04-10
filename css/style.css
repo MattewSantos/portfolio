@@ -69,12 +69,10 @@
         margin-right: 3%;
         margin-bottom: 0.5%;
         float: left;
-        width: 15vh;
-        height: 15vh;
-        color: white;
+        width: 20vh;
+        height: 20vh;
         font-weight: 600;
-        background-color: gray;
-        
+        background: url("/image/lightningbuy.png");
         display: flex;
         text-align: center;
         align-items: center;
@@ -91,9 +89,8 @@
         width: 15vh;
         height: 15vh;
         color: white;
+        background: url("/image/firstAssignment.png");
         font-weight: 600;
-        background-color: gray;
-        
         display: flex;
         text-align: center;
         align-items: center;
@@ -110,6 +107,7 @@
         width: 15vh;
         height: 15vh;
         color: white;
+        background: url("/image/portfolio.png");
         font-weight: 600;
         background-color: gray;
         
